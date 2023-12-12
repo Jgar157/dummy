@@ -1,0 +1,3 @@
+config = statsig.get_config(StatsigUser("user-id"), "config-name")
+
+config_json = config.get_value()
